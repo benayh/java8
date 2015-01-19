@@ -12,6 +12,10 @@ public class Deneme {
 		
 		if (MyEnum.A == x)
 			System.out.println("equal");
+		
+		for (MyEnum e : MyEnum.values())
+			System.out.println(e.name() + " : " + e.getValue());
+			
 	}
 
 }
