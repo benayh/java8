@@ -8,6 +8,10 @@ public class Deneme {
 
 		System.out.println(MyEnum.A);
 		
+		MyEnum x = MyEnum.A;
+		
+		if (MyEnum.A == x)
+			System.out.println("equal");
 	}
 
 }
