@@ -6,7 +6,8 @@ public enum MyEnum {
 	B(2),
 	C(3),
 	D(4),
-	E(5);
+	E(5),
+	F(6);
     
 	private int value;
 	
